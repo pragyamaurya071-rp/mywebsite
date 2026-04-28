@@ -1,3 +1,9 @@
+footer {
+  margin-top: 40px;
+  padding: 10px;
+  background: #1a237e;
+  color: white;
+}
 .card {
   width: 220px;
   padding: 20px;
