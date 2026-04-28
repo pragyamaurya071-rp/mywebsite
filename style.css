@@ -27,3 +27,32 @@ body {
   transform: scale(1.05);
   background: #e3f2fd;
 }
+body {
+  font-family: Arial;
+  background: #f5f7fa;
+  text-align: center;
+}
+
+h1 {
+  color: #1a237e;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.card {
+  display: inline-block;
+  width: 250px;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
