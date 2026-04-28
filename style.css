@@ -56,3 +56,13 @@ h1 {
 .card:hover {
   transform: scale(1.05);
 }
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  background: #1a237e;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 15px;
+}
