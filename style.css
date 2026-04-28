@@ -151,4 +151,15 @@ nav a:hover {
 .card:hover {
   transform: translateY(-5px);
 }
+  img {
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0d47a1;
+  font-weight: bold;
+}
   
