@@ -1,33 +1,4 @@
-<button onclick="darkMode()">🌙 Dark Mode</button>
-<script>
-function darkMode() {
-  document.body.classList.toggle("dark");
-}
-</script>
-<h1>Login</h1>
-
-<input type="text" id="user" placeholder="Username">
-<input type="password" id="pass" placeholder="Password">
-
-<button onclick="login()">Login</button>
-
-<p id="msg"></p>
-
-<script>
-function login(){
-  var u = document.getElementById("user").value;
-  var p = document.getElementById("pass").value;
-
-  if(u=="admin" && p=="1234"){
-    document.getElementById("msg").innerHTML="✅ Login Success";
-  } else {
-    document.getElementById("msg").innerHTML="❌ Wrong";
-  }
-}
-  <a href="login.html">Login</a>
-</script>
-<footer>
-  <p>© 2026 ITI Notes | All Rights Reserved</p>
+ <p>© 2026 ITI Notes | All Rights Reserved</p>
 </footer>
 <header>
   <div class="logo">⚡ ITI Notes ⚡</div>
@@ -85,18 +56,4 @@ function login(){
     <h2>❓ MCQ</h2>
     <p>Practice Questions</p>
   </a>
-<p>Your Score: <span id="score">0</span></p>
-  <script>
-let score = 0;
-
-function check(ans){
-  if(ans=='a'){
-    score++;
-    document.getElementById("score").innerHTML = score;
-    alert("Correct");
-  } else {
-    alert("Wrong");
-  }
-}
-</script>
 
