@@ -130,4 +130,7 @@ nav a:hover {
   width: 60%;
   margin-top: 20px;
   border-radius: 8px;
+}.dark {
+  background: #121212;
+  color: white;
 }
